@@ -27,8 +27,13 @@ $ echo 'email2@example.com,John Doe,124' >> mail.csv
 $ csv-mailer -subject "test email"  # perfoms a test only, check your log at https://mailgun.com
 $ csv-mailer -subject "test email" -send # Sends out the email(s)!
 
-
 ```
+
+For more options, see:
+```sh
+$ csv-mailer -help
+```
+
 TODO:
 - Support more CSV seperators such as colon and tab
 - Support tagging of emails for better compaign management
